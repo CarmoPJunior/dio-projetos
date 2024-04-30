@@ -1,0 +1,27 @@
+.referencias-titulo{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: space-evenly;
+    padding: 10px; 
+}
+
+.referencias-saiba-mais {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: space-evenly;
+    grid-gap: 50px;
+    padding: 10px;    
+}
+
+.referencias-saiba-mais .card-container h4{
+    padding: 10px 0px 5px; 
+}
+
+.referencias-saiba-mais .card-container hr{
+    margin-bottom: 15px; 
+}
+
+.referencias-saiba-mais .card-container a{   
+    text-decoration: none;
+    color: #007bff;
+}
