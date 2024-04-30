@@ -1,0 +1,44 @@
+{
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "aspnetcorerazor": "html"
+    },
+    "git.confirmSync": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "launch": {
+        "configurations": []
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.markdownlint": true,
+        "source.fixAll.tslint": true,
+        "source.fixAll.sonarLint": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "redhat.telemetry.enabled": false,
+    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+}

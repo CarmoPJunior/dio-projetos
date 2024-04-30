@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  db-mysql:
+    image: mysql:8.1.0
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: powerbi
+      MYSQL_ROOT_PASSWORD: powerbi
+      MYSQL_PASSWORD: powerbi
+      MYSQL_USER: powerbi
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    # volumes:
+    #     - /caminho/para/diretorio/local:/var/lib/mysql
+    ports:
+      - "3306:3306"
